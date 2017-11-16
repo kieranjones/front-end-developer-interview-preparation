@@ -34,10 +34,12 @@ var y = 10;
 
 ## 2. Arrays
 Q. How do you check if an object is an array or not?
+
 A.
 
 Q. How to empty an array in JavaScript?
-A.
+
+A. There are many ways you can empty an array in JavaScript and they have have different effects on referenced variables.
 
 *Example*
 
@@ -103,21 +105,21 @@ object1 === object2 //false
 
 0 == 1 // false
 
-0 == "0"); // true
+0 == "0" // true
 
-0 === "0"); // false
+0 === "0" // false
 
-true == 1); // true
+true == 1 // true
 
-false == 0); // true
+false == 0 // true
 
-1 + 2 + "3"); // "33"
+1 + 2 + "3" // "33"
 
-1 + "2" + "3"); // "123"
+1 + "2" + "3" // "123"
 
-"1" + 2); // "12"
+"1" + 2 // "12"
 
-"1" + "3" + 2); // 132
+"1" + "3" + 2 // 132
 ```
 
 Features of comparisons:
@@ -131,6 +133,7 @@ Features of comparisons:
 Q. How does Chai do deep equal?
 
 A. Deep Eql is a module which you can use to determine if two objects are "deeply" equal - that is, rather than having referential equality (a === b), this module checks an object's keys recursively, until it finds primitives to check for referential equality.
+
 More info: https://github.com/chaijs/deep-eql
 
 ## setTimeOut
