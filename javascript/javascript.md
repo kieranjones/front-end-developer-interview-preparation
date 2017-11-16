@@ -1,5 +1,5 @@
 ## 1. Hoisting
-Q. What is hoisting?
+*Q. What is hoisting?*
 
 A.
 * Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope.
@@ -33,11 +33,11 @@ var y = 10;
 * JavaScript in strict mode does not allow variables to be used if they are not declared.
 
 ## 2. Arrays
-Q. How do you check if an object is an array or not?
+*Q. How do you check if an object is an array or not?*
 
 A.
 
-Q. How to empty an array in JavaScript?
+*Q. How to empty an array in JavaScript?*
 
 A. There are many ways you can empty an array in JavaScript and they have have different effects on referenced variables.
 
@@ -79,17 +79,10 @@ while(arrayList.length){
 
 
 
-## Functional programming
-Q. What is functional programming?
-
-
-Q. What are the benefits of functional programming?
-
-
 
 ## Operators
 
-Q. How does the `===` operator work?
+*Q. How does the `===` operator work?*
 
 A. The identity operator returns true if the operands are strictly equal with no type conversion.
 
@@ -130,7 +123,7 @@ Features of comparisons:
 * An expression comparing Objects is only true if the operands reference the same Object.
 * Null and Undefined Types are strictly equal to themselves and abstractly equal to each other.
 
-Q. How does Chai do deep equal?
+*Q. How does Chai do deep equal?*
 
 A. Deep Eql is a module which you can use to determine if two objects are "deeply" equal - that is, rather than having referential equality (a === b), this module checks an object's keys recursively, until it finds primitives to check for referential equality.
 
@@ -138,12 +131,12 @@ More info: https://github.com/chaijs/deep-eql
 
 ## setTimeOut
 
-Q. How does setTimeout work?
+*Q. How does setTimeout work?*
 
 
 ## Misc.
 
-Q. What is a potential issue with using ```typeof bar === "object"``` to determine if `bar` is an object?
+*Q. What is a potential issue with using ```typeof bar === "object"``` to determine if `bar` is an object?*
 
 A. Although typeof bar === "object" is a reliable way of checking if bar is an object, the surprising gotcha in JavaScript is that null is also considered an object!
 To avoid this issue you could also check if `bar` is `null`:

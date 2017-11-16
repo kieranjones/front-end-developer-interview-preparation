@@ -5,10 +5,15 @@ Front End Developer interviews are notoriously difficult and can be daunting if 
 
 Topics
 
-JavaScript
+![JavaScript](./javascript/javascript.md)
 - Isomorphic
 
 Functional Programming
+*Q. What is functional programming?*
+
+
+*Q. What are the benefits of functional programming?*
+
 
 
 Typechecking
