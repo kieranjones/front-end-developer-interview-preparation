@@ -9,10 +9,10 @@ Topics
 - Isomorphic
 
 Functional Programming
-*Q. What is functional programming?*
+**Q. What is functional programming?**
 
 
-*Q. What are the benefits of functional programming?*
+**Q. What are the benefits of functional programming?**
 
 
 
